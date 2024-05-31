@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.men_section1 {
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.men_section1>p {
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+.men_section1 p span {
+    font-weight: bold;
+}
+
+.filter_product {
+    width: 100%;
+    display: flex;
+}
+
+.filter {
+    flex-basis: 18%;
+}
+
+.filter>p {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.filter_box1 {
+    border: 1px solid black;
+}
+
+.catlist>p {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.catlist ul {
+    padding: 10px 20px;
+}
+
+.catlist ul li {
+    padding: 8px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.catlist ul li input {
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+}
+
+
+/* BRANDS  */
+
+.filter_box2 {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.brands>p {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.brands>ul>p{
+    color: rgb(215, 137, 151);
+}
+
+.brands ul {
+    padding: 10px 20px;
+}
+
+.brands ul li {
+    padding: 8px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.brands ul li input {
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+}
+
+/* Price  */
+
+.filter_box3 {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.price>p {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.price ul {
+    padding: 10px 20px;
+}
+
+.price ul li {
+    font-size: 14px;
+    padding: 8px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.price ul li input {
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+}
+
+/* COLOR  */
+
+
+.filter_box4 {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.color>p {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.color ul {
+    padding: 10px 20px;
+}
+
+.color ul li {
+    font-size: 14px;
+    padding: 8px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.color ul li input {
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+}
+
+/* DISCOUNT  */
+
+.filter_box5 {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.discount>p {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.discount ul {
+    padding: 10px 20px;
+}
+
+.discount ul li {
+    font-size: 14px;
+    padding: 8px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.discount ul li input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    outline: none;
+    border: 2px solid #000;
+    border-radius: 50%;
+   
+}
+
+/* Product Section  */
+
+.product {
+    margin-top: 43px;
+    flex-basis: 82%;
+    display: flex;
+}
+.product_row1{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-top: 1px solid black;
+    
+}
+.product_box{
+    flex-basis: 18%;
+    margin: 5px;
+}
+.product_box img{
+    width: 200px;
+    height: auto;
+    padding: 5px;
+    margin: 5px;
+}
+.product_box h6{
+    font-size: 15px;
+    margin: 0 0 5px 10px;
+}
+.product_box p{
+    margin-left: 10px;
+    padding-bottom: 5px ;
+}
+.product_box p~p{
+    font-size: 10px;
+    font-weight: bold;
+}
+.cut_price{
+    margin: 0 3px;
+    text-decoration: line-through;
+    font-weight: normal !important;
+}
+.off_price{
+    color: palevioletred;
+}
